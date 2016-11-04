@@ -61,6 +61,10 @@ $('parent_element').litebochs({theme: 'light'})
 
 ### Defaults
  - `theme`: `dark`
+ - `anim`: `zoom`
+ - `speed`: `fast`
 
 ### Alternatives
  - `theme`: `light`
+ - `anim`: `bounce`
+ - `speed`: `slow`
