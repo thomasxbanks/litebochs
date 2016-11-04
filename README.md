@@ -10,22 +10,27 @@ litebochs is a lightweight jQuery plugin that does make images appear in a light
 1. Drop the folder somewhere sensible in your project. Wherever all your other 3rd party stuff goes probably.
 
 ## Structure
+__Distribution Folder__
 ```
 litebochs
-         |__ litebochs
-            |__ css
-               |__ litebochs.css
-            |__ js
-               |__ litebochs.js
-               |__ litebochs.js.map
-         |__ src
-            |__ css
-               |__ litebochs.scss
-            |__ js
-               |__ litebochs.js
-         gulpfile.js
-         package.json
-         README.md
+├── css
+│   └── litebochs.css
+├── index.html
+└── js
+    ├── litebochs.js
+    └── litebochs.js.map
+```
+
+__Development Folder__
+```
+src
+├── css
+│   └── litebochs.scss
+├── index.html
+└── js
+    └── litebochs.js
+
+
 ```
 
 ## Usage
